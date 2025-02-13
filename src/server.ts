@@ -34,10 +34,10 @@ export class Server {
                 requestsTimeout: 5_000,
                 prefix: '',
                 redisPubOptions: {
-                    //
+                    family: 0,
                 },
                 redisSubOptions: {
-                    //
+                    family: 0,
                 },
                 clusterMode: false,
             },
@@ -96,7 +96,7 @@ export class Server {
             driver: 'memory',
             redis: {
                 redisOptions: {
-                    //
+                    family: 0,
                 },
                 clusterMode: false,
             },
@@ -205,7 +205,7 @@ export class Server {
             redis: {
                 concurrency: 1,
                 redisOptions: {
-                    //
+                    family: 0,
                 },
                 clusterMode: false,
             },
@@ -224,7 +224,7 @@ export class Server {
             driver: 'local',
             redis: {
                 redisOptions: {
-                    //
+                    family: 0,
                 },
                 clusterMode: false,
             },
